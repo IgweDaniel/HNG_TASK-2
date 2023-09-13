@@ -3,15 +3,9 @@
 This is a simple FastAPI project that provides a RESTful API for performing CRUD (Create, Read, Update, Delete) operations on a "person" resource. The API interacts with an SQLite database and offers dynamic parameter handling.
 It was built as a requirement for stage 3 progress at HNG internship 2023 for which I'm a participant.
 
-## Features
+## Documentation
 
-- Create a new person record.
-- Retrieve details of a person by name.
-- Update the details of an existing person.
-- Delete a person record.
-- Flexible parameter handling - CRUD operations can be performed using the person's name.
-- SQLite database backend.
-- Documentation outlining request/response formats, setup instructions, and sample API usage.
+The documentation of this project, its API and how it works can be can be found [here](./Documentation.md)
 
 ## Installation
 

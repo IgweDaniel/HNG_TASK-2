@@ -6,6 +6,7 @@ Welcome to the FastAPI SQLite CRUD API Documentation! 📚 Here, we'll guide you
 
 - [FastAPI SQLite CRUD API Documentation 🚀](#fastapi-sqlite-crud-api-documentation-)
   - [Table of Contents 📖](#table-of-contents-)
+  - [Application UML](#application-uml)
   - [Standard Formats 📋](#standard-formats-)
     - [Create Person Request Format 🧑‍🦱](#create-person-request-format-)
     - [Create Person Response Format 🌟](#create-person-response-format-)
@@ -24,7 +25,11 @@ Welcome to the FastAPI SQLite CRUD API Documentation! 📚 Here, we'll guide you
     - [Local Deployment 🏠](#local-deployment-)
 
 ---
+## Application UML
 
+This UML diagram illustrates the structure and relationships of the API's classes and models.
+
+![UML Diagram](./uml.png)
 ## Standard Formats 📋
 
 ### Create Person Request Format 🧑‍🦱
