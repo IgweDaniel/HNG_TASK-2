@@ -19,6 +19,7 @@ Welcome to the FastAPI SQLite CRUD API Documentation! 📚 Here, we'll guide you
     - [Update Person 🔄](#update-person-)
     - [Delete Person 🗑️](#delete-person-️)
   - [Known Limitations and Assumptions 🤷‍♂️](#known-limitations-and-assumptions-️)
+  - [Testing the API 🧪](#testing-the-api-)
   - [Setup Instructions 🛠️](#setup-instructions-️)
     - [Local Deployment 🏠](#local-deployment-)
 
@@ -163,6 +164,8 @@ curl -X DELETE http://localhost:8000/api/John%20Doe
 }
 ```
 
+
+
 ---
 
 ## Known Limitations and Assumptions 🤷‍♂️
@@ -170,6 +173,10 @@ curl -X DELETE http://localhost:8000/api/John%20Doe
 - Age and marital status are optional fields. If not provided during person creation or update, default values (age: null, married: false) will be used. 😅
 
 ---
+
+## Testing the API 🧪
+
+To test the API and explore its capabilities, you can access it  [here](/[docs](https://hng-task-2-k7ad.onrender.com)) provided by our API. This interactive documentation allows you to send requests, view responses, and get a hands-on experience with our API endpoints. Enjoy exploring! 🙌😊
 
 ## Setup Instructions 🛠️
 
@@ -202,4 +209,5 @@ Follow these steps to deploy the API locally:
    ```
 
    The API will be accessible at `http://localhost:8000`. 🌐
+
 
