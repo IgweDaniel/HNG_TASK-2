@@ -79,8 +79,3 @@ def delete_person(
 @app.get("/api/", response_model=list[schemas.Person])
 def get_users(db: Session = Depends(get_db)):
     return db.query(models.Person).all()
-
-
-@app.get("/", response_model=list[schemas.Person])
-def read_root():
-    return RedirectResponse(url="/docs")
