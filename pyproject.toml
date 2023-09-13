@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "task-one"
+version = "0.1.0"
+description = ""
+authors = ["IgweDaniel <danielchibuzoigwe@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.103.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+sqlalchemy = "^2.0.20"
+httpx = "^0.25.0"
+pytest = "^7.4.2"
+
+
+[tool.poetry.group.D.dependencies]
+pytest-xdist = "^3.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
