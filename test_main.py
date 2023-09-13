@@ -129,7 +129,7 @@ class TestPersonRetrieve:
         people = [
             {"name": "Alice", "age": 30, "married": True},
             {"name": "Bob", "age": 25, "married": False},
-            {"name": "Charlie", "age": 35, "married": True},
+            {"name": "Charlie", "married": True},
         ]
 
         for person in people:
