@@ -36,7 +36,7 @@ This UML diagram illustrates the structure and relationships of the API's classe
 
 ```json
 {
-  "name": "John Doe",
+  "name": "john",
   "age": 30,
   "married": true
 }
@@ -49,7 +49,7 @@ This UML diagram illustrates the structure and relationships of the API's classe
 ```json
 {
   "id": 1,
-  "name": "John Doe",
+  "name": "john",
   "age": 30,
   "married": true
 }
@@ -60,7 +60,7 @@ This UML diagram illustrates the structure and relationships of the API's classe
 ```json
 {
   "id": 1,
-  "name": "John Doe",
+  "name": "john",
   "age": 30,
   "married": true
 }
@@ -104,7 +104,7 @@ This UML diagram illustrates the structure and relationships of the API's classe
 
 ```bash
 curl -X POST http://localhost:8000/api/ -H "Content-Type: application/json" -d '{
-  "name": "John Doe"
+  "name": "john"
 }'
 ```
 
@@ -113,7 +113,7 @@ curl -X POST http://localhost:8000/api/ -H "Content-Type: application/json" -d '
 ```json
 {
   "id": 1,
-  "name": "John Doe",
+  "name": "john",
   "age": null,
   "married": false
 }
@@ -130,7 +130,7 @@ curl http://localhost:8000/api/John%20Doe
 ```json
 {
   "id": 1,
-  "name": "John Doe",
+  "name": "john",
   "age": null,
   "married": false
 }
