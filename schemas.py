@@ -19,5 +19,5 @@ class Person(PersonBase):
     model_config = ConfigDict(from_attributes=True)
 
     id: int
-    age: int
+    age: int | None = None
     married: bool
